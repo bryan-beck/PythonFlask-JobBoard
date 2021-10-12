@@ -23,7 +23,7 @@ def execute_sql(sql, values=(), commit=False, single=False):
         return results
 
 def close_connection(exception):
-    connection = getattr('')
+    connection = getattr(''
 
 
 @app.route('/')
